@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-size: 10px;
+}
+#header{
+    height: 120px;
+    text-align: center;
+}
+#list_item{
+    height: 53px;
+    margin-top: 33px;   
+    text-align: center;
+}
+#list_item .left{
+    margin-right: 80px;
+}
+#list_item .right{
+    margin-left: 80px;
+}
+#main-picture{
+    height: 464px;
+    margin-bottom: 30px;
+}
+#main-picture img{
+    width: 100%;
+}
+#icon_title{
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+#icon_box{
+    display: inline-block;
+    width: 1240px;
+    padding: 10px 0px;
+    text-align: center;
+}
+#icon_box .text{
+    width: 100%
+}
+#box_icons{
+    text-align: center;
+}
+#icon_box p{
+    display: inline-block;
+    width: 250px;
+    font-size: 14px;
+    text-align: center; 
+}
+.start{
+    margin-right: 30px;
+}
+.middle{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.end{
+    margin-left: 30px
+}
+#chefs{
+    height: 304px;
+    background-color: rgb(236, 236, 236);
+}
+#chefs .title{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+.content{
+    width: 771px;
+}
+.content .text{
+    width: 500px;
+    margin-right: 30px;
+}
+.content img{
+    float: right;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+p{
+    margin: 0px 0px;
+}
