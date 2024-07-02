@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    font-size: 14px;
+    font-family: '맑은 고딕';
+    color: black;
+    margin: 0;
+}
+body div{
+    margin: 0 auto;
+}
+#top{
+    width: 1000px;
+    height: 500px;
+    margin-top: 30px;
+}
+#top :nth-child(1){
+    float:left;
+}
+#top .right{
+    float:right;
+}
+
+
+
+
+
+
+
+#footer{
+    width: 750px;
+}
