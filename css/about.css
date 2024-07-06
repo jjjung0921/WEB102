@@ -1,31 +1,65 @@
-body{
-    text-align: center;
+body{   
     font-size: 14px;
     font-family: '맑은 고딕';
     color: black;
     margin: 0;
 }
-body div{
+body .container{
     margin: 0 auto;
+    width: 1000px;
 }
 #top{
-    width: 1000px;
     height: 500px;
     margin-top: 30px;
 }
-#top :nth-child(1){
+#top .img_container{
+    width:750px;
+    height:500px;
+    background-image: url(../img/chef_about.png);
+    background-size: cover;
     float:left;
+}
+.img_container p{
+    width: 210px;
+    height: 210px;
+    margin-top: 250px;
+    margin-bottom:0px;
+    padding: 20px;
+    background-color: green;
 }
 #top .right{
     float:right;
 }
-
-
-
-
-
-
-
+#box-all{
+    width: 1000px;
+    height: 500px;
+}
+#box-all p{
+    margin: 0px;
+}
+#box-all .left{
+    width:750px;
+    height: 500px;
+    float: left;
+}
+#box-all .text_contents{
+    display: inline-block;
+    width: 210px;
+    height: 210px;
+    padding: 20px;
+}
+#box-all .right{
+    width: 250px;
+    height: 500px;
+    float: right;
+}
 #footer{
     width: 750px;
+    padding-right: 250px;
 }
+.orange{
+    color: orange;
+}
+
+
+
